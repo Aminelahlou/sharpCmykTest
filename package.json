@@ -1,0 +1,27 @@
+{
+  "name": "sharpcmyktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-sharp.js",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  },
+  "scripts": {
+    "start": "node test-sharp.js",
+    "clean": "rm -rf node_modules*",
+    "install_source": "npm install --build-from-source sharp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aminelahlou/sharpCmykTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aminelahlou/sharpCmykTest/issues"
+  },
+  "homepage": "https://github.com/Aminelahlou/sharpCmykTest#readme"
+}
