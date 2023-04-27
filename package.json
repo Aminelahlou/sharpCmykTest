@@ -4,7 +4,7 @@
   "description": "",
   "main": "test-sharp.js",
   "dependencies": {
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
     "node-gyp": "^9.3.1"
