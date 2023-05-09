@@ -37,6 +37,7 @@ async function compositeFunc() {
     },
   })
     .toColorspace("cmyk")
+    .tiff()
     .toBuffer();
 
   await sharp(whiteImage)
